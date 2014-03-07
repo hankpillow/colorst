@@ -5,8 +5,8 @@ this is a **personal project** I created to make easier reading svn status/log/s
 
 ###install:
 
-- place `colorst` file into a place where your $PATH points at; or
-- export PATH="/my-local-repo/colorst:$PATH"
+- place `colorst` file into a folder where your $PATH points at; or
+- export PATH="~/workspace/my-local-colorst-repo:$PATH"
 
 ###usage:
 

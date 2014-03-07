@@ -1,0 +1,26 @@
+echo -e "
+A        assets/js-min/foo.js
+ B       assets/js-min/foo.js
+  C      assets/js-min/foo.js
+   D     assets/js-min/foo.js
+    I    assets/js-min/foo.js
+     K   assets/js-min/foo.js
+      L  assets/js-min/foo.js
+G        assets/js-min/foo.js
+ M       assets/js-min/foo.js
+  O      assets/js-min/foo.js
+   R     assets/js-min/foo.js
+    S    assets/js-min/foo.js
+     T   assets/js-min/foo.js
+      U  assets/js-min/foo.js
+X        assets/js-min/foo.js
+ ?       assets/js-min/foo.js
+  !      assets/js-min/foo.js
+   ~     assets/js-min/foo.js
+Restored 'error.jsp'
+    +     assets/js-min/foo.js" | colorst
+
+echo "Updating '.':
+Restored 'error.jsp'
+U    foo/bar/tmp
+D    loren/ipsun" | colorst
